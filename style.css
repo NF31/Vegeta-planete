@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
-    background-color: black;
+    background-color: crimson;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -11,7 +11,7 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    background: black;
+  /*  background: black;*/
     max-width: 350px;
     position: absolute;
     top: 25%;
@@ -109,18 +109,6 @@
     transition: 0.3s;
 }
 
-
-.html {
-    width: 29px;
-    height: 29px;
-    transition: 0.3s;
-}
-
-.html:hover {
-    transform: scale(1.2);
-    transition: 0.3s;
-}
-
 .css {
     width: 29px;
     height: 29px;
@@ -132,16 +120,6 @@
     transition: 0.3s;
 }
 
-.js {
-    width: 29px;
-    height: 29px;
-    transition: 0.3s;
-}
-
-.js:hover {
-    transform: scale(1.2);
-    transition: 0.3s;
-}
 
 .box:hover {
     transition: 0.3s;
